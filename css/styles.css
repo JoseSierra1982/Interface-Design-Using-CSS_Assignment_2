@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --romantic-pink: #FFC0CB;
+    --romantic-hot-pink: #FF69B4;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    color: purple;
+    text-align: center;
+    background: linear-gradient(135deg, var(--romantic-pink), var(--romantic-hot-pink));        
+}
+
+header {
+    background-color: aquamarine;
+    color: #FF69B4;
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px gray;
+    font-family: 'Great Vibes', cursive;
+}
+
+main {
+    padding: 20px;
+}
+
+section.lyrics {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: left;
+    background: linear-gradient(45deg, var(--romantic-pink), var(--romantic-hot-pink));        
+}
+
+section.lyrics h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+    text-align: center;
+}
+
+section.lyrics p {
+    margin: 10px 100px;
+}
+
+.lyrics-text {
+    margin-top: 20px;
+    line-height: 1.6;
+    font-family: 'Playfair Display', serif;
+}
+
+.lyrics-text p {
+    margin: 10px 0;
+}
+
+p.title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: aquamarine;
+    color: #FF69B4;
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px gray;
+    font-family: 'Great Vibes', cursive;
+    font-size:larger;
+}
